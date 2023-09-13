@@ -1,8 +1,11 @@
 # Feedback Apprenant 1
 
+> Dans l'ensemble c'est plutôt bien il a juste le formulaire d'édition qui a l'air 
+> d'avoir poser problème à comprendre je vais te montrer dans le point juste en dessous
+> comment et pourquoi il y de l'id du teacher.
+
+
 ## Partie Teacher
-
-
 ### Update d'un teacher:
 
 #### Le formulaire:
@@ -17,6 +20,7 @@ public function teacherUpdatePost($teacherid)
 - et voici ta balise d'ouverture du formulaire pour faire la mise a jour.
 > comme tu peux le voir ici, y a un petit soucis, dans ta function, tu lui dis que tu as besoin de l'Id ton teacher dans la signature de ta fonction mais quand tu génères la route avec le `$router` tu le lui passes l'id en paramètres.
 > Donc quand tu fais ton `POST`  le router génère une route avec la method `POST` `/teacher/` qui n'existe pas et te retourne une 404
+> Le fait d'avoir besoin de l'id intervient dans un processus précis: celui de retrouver le teacher à editer :)
 
 <hr>
 
