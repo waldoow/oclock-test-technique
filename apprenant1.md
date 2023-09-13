@@ -1,7 +1,7 @@
 # Feedback Apprenant 1
 
 > Dans l'ensemble c'est plutôt bien il a juste le formulaire d'édition qui a l'air 
-> d'avoir poser problème à comprendre je vais te montrer dans le point juste en dessous
+> d'avoir posé problème à comprendre je vais te montrer dans le point juste en dessous
 > comment et pourquoi il y de l'id du teacher.
 
 
