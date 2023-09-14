@@ -1,6 +1,6 @@
 # Feedback Apprenant 2
 
-> Certaines notions sont présents ce qui est très bien, j'aperçois quand même quelques lacunes que l'on va essayer
+> Certaines notions sont présentes ce qui est très bien, j'aperçois quand même quelques lacunes que l'on va essayer
 > de détailler ensemble. Au début, c'est toujours un peu compliqué, mais si je peux te donner un conseil, c'est d'essayer de faire
 > une partie complête sans s'éparpiller. Par exemple, dans cet exercice, la logique pour les formateurs et les étudiants est la même,
 > je m'explique, on peut ajouter des nouveaux étudiants et formateurs, les modifiers, les lister et les supprimer, du coup la logique reste la même
