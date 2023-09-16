@@ -7,7 +7,7 @@
 SQLSTATE[HY000] [2002] No such file or directory
 ```
 
-> je sais que cette erreur n'est pas explicite, mais en gros cela veut juste dire que tu as un soucis dans tes informations
+> Je sais que cette erreur n'est pas explicite, mais en gros cela veut juste dire que tu as un soucis dans tes informations
 > de connexion :)
 
 ```env
@@ -17,7 +17,9 @@ DB_NAME = 'skoule'
 DB_USERNAME = 'root'
 DB_PASSWORD = 'root'
 ```
+
 > Si tu rencontres ce genre de soucis, le premier reflex, c'est de changer entre `localhost` et `127.0.0.1`
+> N'hesite pas à copier/coller ton erreur sur google :)  
 
 Si jamais tu trouves le temps de faire la suite, ça serait une bonne idée de le faire, tu pourras voir les notions et
 tu avais l'air bien parti :)

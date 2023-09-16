@@ -8,14 +8,20 @@
 
 > Il faut persevere, tu vas avoir le déclick. 
 
+## Generale
+
+N'oublie pas les fichiers d'erreurs :)
+`... views/error/err404.tpl.php): Failed to open stream: No such file or directory ...`
+Cette erreur t'indique que ton fichier n'existe pas :)
+
 ## Partie Teacher
 
-> Tu as réussi à lister les formateurs ce qui est très bien.
+Tu as réussi à lister les formateurs ce qui est très bien.
 
-> Pour la liste des formateurs le bouton jaune sert à éditer un formateur, pour cela on doit générer une route, qui contient l'id du formateur
-> avec la fonction `generate`, la route `/teachers/[id]` le `[id]` signifie qu'il n'est pas fixe pour rendre les routes réutilisable.
+> Pour la liste des formateurs le bouton jaune sert à éditer un formateur, pour cela, on doit générer une route, qui contient l'id du formateur
+> avec la fonction `generate`, la route `/teachers/[id]` le `[id]` signifie qu'il n'est pas fixe pour rendre les routes réutilisables.
 > <br />
-> il faut donc géréner la route avec tout ses parametre ce qui va correspondre à un controller et une action donnée.
+> il faut donc géréner la route avec tous ses paramètres ce qui va correspondre à un controller et une action donnée.
 > 
 ```php
 // ici la fonction generate a deux parameters, le premier qui est la route en question et le second qui est optionnel et qui permet d'ajouter 
@@ -42,7 +48,7 @@ $router->generate('/teachers/', ['id' => $teacher->getId()])
 > Sur la Partie Students ce qui te cause cette erreur, même si celle-ci n'est pas très claire, c'est qu'il te manque un attribut `$teacher_id`
 > qui permet de lier un Student à un Teacher.
 
-> Pour le reste, comme expliqué plus haut pour les teachers, s'applique ici aussi car la seule différence, c'est l'objet que tu utilises, sinon la 
+> Pour le reste, comme expliqué plus haut pour les teachers, s'applique ici aussi, car la seule différence, c'est l'objet que tu utilises, sinon la 
 > logique et les mécanismes sont les mêmes.
  
 
